@@ -1,0 +1,16 @@
+.alert{
+display: inline-block;
+border: 1px solid #6d0000;
+background-color: #FFB2B2;
+width: 75%;
+padding: 4px;
+font-size: 1.1rem;
+font-weight: 700;
+color: #6d0000;
+}
+[class^="btn"]:hover{
+box-shadow: rgba(0, 0, 0, 0.322) 1px 5px 0px ;
+}
+.rowGradiant{
+    background-image: linear-gradient(#E9ECEF,white );
+}

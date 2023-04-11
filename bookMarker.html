@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Marker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bookMarker.css">
+    <link rel="icon" type="image/x-icon" href="images/android-chrome-512x512.png">
+</head>
+
+<body>
+    <section>
+        <div class="container w-75 ">
+            <h2 class="py-4 opacity-25 fw-bold">
+                Book Marker
+            </h2>
+            <hr >
+            <div class="row text-center  bg-body-secondary my-3 py-4">
+                <div class="col-12 fw-bold text-center">
+                    <h2 class="fs-4 py-2 my-3">Bookmark your favorite sites </h2>
+                    <p>Site Name</p>
+                    <input id="siteName" placeholder="Bookmark Name" type="text"
+                        class="w-75 mb-2 form-control-sm border-0 ">
+                    <p class=" alert d-none " id="nameError">Name is required</p>
+                    <p>Site URL</p>
+                    <input id="siteUrl" placeholder="website URL" type="text"
+                        class="w-75 mb-2 form-control-sm border-0 ">
+                    <p class="alert d-none " id="urlError">Url Field is required</p>
+                    <div class="my-3">
+                        <!-- submit button -->
+                        <button class="btn btn-primary" id="submitBtn" >Submit</button>
+                    </div>
+                </div>
+            </div>
+<!-- rows of websites =================================== -->
+            <!-- <div class="row row-cols-3 rowGradiant  my-5 p-3" id="first web site for me">
+                <div class="col">
+                    <h2 class="fs-5 fw-medium">first web site for me</h2>
+                </div>
+                <div class="col">
+                    <a class="btn btn-primary"
+                        href="extension://noogafoofpebimajpfpamcfhoaifemoa/suspended.html#ttl=Cima%20Hub&amp;pos=0&amp;uri=http://127.0.0.1:5500/"
+                        target="_blank">visit</a>
+                    <button class="btn btn-danger btndelete">Delete</button>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <section>
+        <div class="container w-75" id="LinksContainer">
+
+        </div>
+        <div class="container w-75">
+            
+            <hr >
+            <p class="opacity-50 fs-6 fw-bold">© 2019 Bookmarker Inc.</p>
+        </div>
+    </section>
+    <script src="js/bookMarker.js"></script>
+</body>
+
+</html>
